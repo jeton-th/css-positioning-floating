@@ -1,6 +1,13 @@
+#text {
+    padding: 40px 0; 
+    font-size: 1.1875rem;
+    line-height: 1.8125rem;
+}
+
 .wrap {
     margin: 0 auto;
-    width: 85%;
+    max-width: 1000px;
+    padding: 0 15px;
 }
 
 .article-img img{
@@ -9,7 +16,7 @@
 
 .article-side {
     margin: 0 auto;
-    width: 50%;
+    max-width: 600px;
     margin-bottom: 1em;
 }
 
@@ -22,7 +29,6 @@
 
 .date {
     margin: 0;
-    display: block;
     float: left;
     color: #333;
     font-weight: 500;
@@ -30,7 +36,6 @@
 
 .icons {
     float: right;
-    display: block;
 }
 
 .icons i {
@@ -42,3 +47,6 @@ article p {
     clear: both;
 }
 
+#sidebar ul li img {
+    width: 50px;
+}
