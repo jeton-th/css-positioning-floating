@@ -1,0 +1,42 @@
+.wrap {
+    margin: 0 auto;
+    width: 85%;
+}
+
+.article-img img{
+    max-width: 100%;
+}
+
+.article-side {
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 1em;
+}
+
+.author {
+    font-weight: 700;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+}
+
+.date {
+    color: #333;
+    font-weight: 500;
+    float: left;
+    position: relative;
+    display: block;
+    background-color: red;
+}
+
+.icons {
+    float: right;
+    display: block;
+    position: relative;
+    background-color: blue;
+}
+
+article p {
+    clear: both;
+}
+

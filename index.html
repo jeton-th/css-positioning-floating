@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>CSS Positioning and Floating</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
   <header>
@@ -19,18 +21,27 @@
   
   <div id="main" class="wrap">
     <article>
-      <h1>Space Ripples Reveal Big Bang’s Smoking Gun</h1>
+      <h1 class="article-side">Space Ripples Reveal<br />Big Bang’s Smoking Gun</h1>
 
       <div class="article-img">
-        <img src="" alt="">
+        <img src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-superJumbo.jpg?quality=90&auto=webp" alt="">
         <caption class="img-footer">Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</caption>
+        <p>Rick Friedman for The New York Times</p>
       </div>
 
-      <p class="author">By Dennis Overbye</p>
-      <p class="date">March 17, 2014</p>
-      <div class="icons"></div>
-
-      <p>
+      <div class="article-side">
+        <div>
+          <p class="author">By Dennis Overbye</p>
+          <p class="date">March 17, 2014</p>
+          
+          <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="far fa-envelope"></i>
+          </div>
+        </div>
+        
+        <p>
           CAMBRIDGE, Mass. — One night late in 1979, an itinerant young physicist named Alan Guth, with a new son and a year’s appointment at Stanford, stayed up late with his notebook and equations, venturing far beyond the world of known physics.
 
           He was trying to understand why there was no trace of some exotic particles that should have been created in the Big Bang. Instead he discovered what might have made the universe bang to begin with. A potential hitch in the presumed course of cosmic evolution could have infused space itself with a special energy that exerted a repulsive force, causing the universe to swell faster than the speed of light for a prodigiously violent instant.
@@ -52,7 +63,9 @@
           
           Confirming inflation would mean that the universe we see, extending 14 billion light-years in space with its hundreds of billions of galaxies, is only an infinitesimal patch in a larger cosmos whose extent, architecture and fate are unknowable. Moreover, beyond our own universe there might be an endless number of other universes bubbling into frothy eternity, like a pot of pasta water boiling over.          
       </p>
+      </div>
     </article>
+      
 
     <aside id="sidebar">
       <h2>Editors’ Picks</h2>
