@@ -1,4 +1,4 @@
-#text {
+.text {
     padding: 40px 0; 
     font-size: 1.1875rem;
     line-height: 1.8125rem;
@@ -55,9 +55,10 @@ article p {
 
     #sidebar {
         display: block;
-        margin-right: 0;
+        position: relative;
+        margin-right: -200px;
         margin-left: auto;
-        width: 200px;
+        width: 180px;
     }
 }
 
