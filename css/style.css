@@ -21,20 +21,22 @@
 }
 
 .date {
+    margin: 0;
+    display: block;
+    float: left;
     color: #333;
     font-weight: 500;
-    float: left;
-    position: relative;
-    display: block;
-    background-color: red;
 }
 
 .icons {
     float: right;
     display: block;
-    position: relative;
-    background-color: blue;
 }
+
+.icons i {
+    margin-left: 10px;
+}
+
 
 article p {
     clear: both;
