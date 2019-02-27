@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 /*float right and left*/
 .right {
     float: right;
@@ -7,21 +11,10 @@
     float: left;
 }
 
-
-body {
-    margin: 0;
-}
-
-.text {
-    padding: 40px 0; 
-    font-size: 1.1875rem;
-    line-height: 1.8125rem;
-}
-
 .wrap {
     margin: 0 auto;
-    max-width: 1000px;
-    padding: 0 15px;
+    max-width: 1150px;
+    padding: 20px;
 }
 
 /*header*/
@@ -31,9 +24,13 @@ header {
     padding: 10px 0;
 }
 
+header a {
+    text-decoration: none;
+    color: #000000;
+}
+
 .nav {
     margin: 0 10px;
-    text-decoration: none;
 }
 
 .logo {
@@ -50,19 +47,22 @@ header button {
     padding: 3px 9px;
 }
 
+/*************  Main div **************/
+
 .article-img img{
     max-width: 100%;
 }
 
-.article-side {
-    margin: 0 auto;
+article h1 {
+    margin: 20px auto;
     max-width: 600px;
-    margin-bottom: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
 }
 
 .author {
     font-weight: 700;
-    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 0.9375rem;
     line-height: 1.25rem;
 }
@@ -87,20 +87,63 @@ article p {
     clear: both;
 }
 
+.text {
+    margin-left: calc((100% - 600px) / 2);
+    margin-right: 0;
+    width: 600px;
+    font-size: 1.1875rem;
+    line-height: 1.8125rem;
+    float: left;
+}
+
+
+/********** Sidebar *********/
+
 #sidebar {
     display: none;
 }
 
-@media (min-width: 1150px){
+#sidebar ul {
+    padding: 0;
+    list-style: none;
+}
+
+#sidebar li {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#sidebar li a {
+    display: block;
+    text-decoration: none;
+    font: 12px sans-serif;
+    color: #000000;
+}
+
+#sidebar img {
+    float: left;
+    width: 80px;
+    margin-right: 10px;
+}
+
+@media (min-width: 1050px){
     #sidebar {
         display: block;
-        position: relative;
-        margin-right: -200px;
+        margin-top: 50%;
+        margin-right: 0;
         margin-left: auto;
-        width: 180px;
+        width: 190px;
     }
 }
 
 #sidebar ul li img {
     width: 50px;
+}
+
+
+/***** Footer ****/
+
+footer {
+    clear: both;
+    text-align: center;
 }
