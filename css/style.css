@@ -28,17 +28,18 @@ body {
 header {
     text-align: center;
     border-bottom: 1px solid #ddd;
-    overflow: hidden;
+    padding: 10px 0;
 }
 
 .nav {
-    margin: 0 15px;
+    margin: 0 10px;
     text-decoration: none;
 }
 
 .logo {
     width: auto;
-    height: 25px;
+    height: 28px;
+    vertical-align: bottom;
 }
 
 header button {
