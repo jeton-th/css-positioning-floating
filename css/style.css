@@ -147,6 +147,12 @@ article p {
     width: 50px;
 }
 
+/****** figcaption *******/
+figcaption span {
+    color: gray;
+    font-size: 16px;
+}
+
 /******** iframe **********/
 iframe {
     width: 100%;
