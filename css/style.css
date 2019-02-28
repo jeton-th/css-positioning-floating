@@ -25,6 +25,7 @@ header {
 }
 
 header a {
+    display: inline-block;
     text-decoration: none;
     color: #000000;
 }
@@ -49,8 +50,16 @@ header button {
 
 /*************  Main div **************/
 
-.article-img img{
-    max-width: 100%;
+figure {
+    margin: 0;
+}
+
+figure img {
+    width: 100%;
+}
+
+article {
+    position: relative;
 }
 
 article h1 {
@@ -76,24 +85,22 @@ article h1 {
 
 .icons {
     float: right;
+    margin-bottom: 30px;
 }
 
 .icons i {
     margin-left: 10px;
 }
 
-
 article p {
     clear: both;
 }
 
-.text {
-    margin-left: calc((100% - 600px) / 2);
-    margin-right: 0;
-    width: 600px;
+.article-side {
+    margin: 0 auto;
+    max-width: 600px;
     font-size: 1.1875rem;
     line-height: 1.8125rem;
-    float: left;
 }
 
 
@@ -129,9 +136,9 @@ article p {
 @media (min-width: 1050px){
     #sidebar {
         display: block;
-        margin-top: 50%;
-        margin-right: 0;
-        margin-left: auto;
+        position: absolute;
+        top: 50%;
+        right: 0;
         width: 190px;
     }
 }
